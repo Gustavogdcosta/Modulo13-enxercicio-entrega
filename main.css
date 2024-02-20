@@ -1,0 +1,86 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(207, 34, 34);   
+    z-index: 1;
+}
+
+.navbar,
+.navbar a, 
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: rgb(245, 62, 102);
+}
+
+#carousel .container {
+    max-height: 40vw;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#carousel-exemplo {
+    z-index: 0;
+    position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 16vw;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 31vw;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 8vw;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 37vw;
+}
+
+section {
+    margin: 50px auto;
+}
+
+section h1 {
+    margin-bottom: 20px;
+    color: rgb(207, 27, 27);
+    font-weight: bolder;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.col-xl-4, .col-md-6 {
+    margin-bottom: 20px;
+}
+
+.card img {
+    overflow-x: hidden;
+}
+
+.card a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#mangas .card {
+    height: 200px;
+}

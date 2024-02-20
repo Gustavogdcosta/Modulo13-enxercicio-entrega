@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animelist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <meta name="viewport" content="width=device-width, initial-scale =1, maximum-scale=1, minimun-scale=1">
+</head>
+<body>
+
+    <!-- Inicio das cabecalho -->
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Animelist</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#carousel">Carousel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#animes">Animes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#mangas">Mangás</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Inicio das cabecalho -->
+
+    <!-- Inicio das seções -->
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        
+        <!-- Inicio do carousel -->
+        <section id="carousel">
+            <div class="container">
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <!-- Inicio das imagens do carousel -->
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="./imagens/img 1.jpeg" alt="">
+                        <div class="carousel-caption">
+                            <h5>One Piece</h5>
+                            <p>Descubra o desfecho da luta da pior geração contra um yonkou</p>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/img 2.png" alt="">
+                        <div class="carousel-caption carousel-caption-padding-y-1.25rem">
+                            <h5>Naruto</h5>
+                            <p>4º Grande Guerra Ninja</p>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/img 3.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h5>Dragon Ball Super</h5>
+                            <p>Goku desperta novos poderes</p>
+                        </div>
+                    </div>
+                    <!-- fim das imagens do carousel -->
+
+                    <!-- Inicio dos botões de controle do carousel -->
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <!-- fim dos botões de controle do carousel -->
+
+                    <!-- Inicio dos indicadores do carousel -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo"  data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo"  data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- fim dos indicadores do carousel -->
+                </div>
+            </div>
+        </section>
+        <!-- fim do carousel -->
+
+        <!-- Inicio da seção de animes -->
+        <section id="animes" class="container">
+            <h1>Animes</h1>
+            <div class="container g-0 justify-content-end">
+                <div class="row">
+                    <!-- Primeiro Card -->
+                    <div class="col-xl-4 col-md-6">
+                            <div class="card text-bg-dark">
+                                <img src="./imagens/img 4.jpg" alt="">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Full Metal Alchemist: brotherhood</h4>
+                                    <p class="card-text">Novos episódios</p>
+                                    <a href="#" class="btn btn-danger">Ir para página do anime </a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- Fim do Primeiro Card -->
+
+                    <!-- Segundo Card -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/img 5.webp" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Demon Slayer</h4>
+                                <p class="card-text">Novos episódios</p>
+                                <a href="#" class="btn btn-danger">Ir para página do anime </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim do Segundo Card -->
+                
+
+                    <!-- Terceiro Card -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/img 6.jpg" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">One Punch Man</h4>
+                                <p class="card-text">Novos episódios</p>
+                                <a href="#" class="btn btn-danger">Ir para página do anime </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim do Terceiro Card -->
+
+                    <!-- Quarto Card -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/img 4.jpg" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Full Metal Alchemist: brotherhood</h4>
+                                <p class="card-text">Novos episódios</p>
+                                <a href="#" class="btn btn-danger">Ir para página do anime </a>
+                            </div>
+                        </div>
+                </div>
+                <!-- Fim do Quarto Card -->
+
+                <!-- quinto Card -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="card text-bg-dark">
+                        <img src="./imagens/img 5.webp" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Demon Slayer</h4>
+                            <p class="card-text">Novos episódios</p>
+                            <a href="#" class="btn btn-danger">Ir para página do anime </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim do quinto Card -->
+            
+
+                <!-- sexto Card -->
+                <div class="col-xl-4 col-md-6">
+                    <div class="card text-bg-dark">
+                        <img src="./imagens/img 6.jpg" alt="">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">One Punch Man</h4>
+                            <p class="card-text">Novos episódios</p>
+                            <a href="#" class="btn btn-danger">Ir para página do anime </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim do sexto Card -->
+
+                </div>
+            </div>
+        </section>
+        <!-- Fim da seção de animes -->
+
+        <!-- Inicio da seção de Mangás -->
+        <section id="mangas" class="container">
+            <h1>Mangás</h1>
+            <div class="container g-0 justify-content-end">
+                <div class="row">
+                    <!-- Primeiro Card manga -->
+                    <div class="col-xl-4 col-md-6">
+                            <div class="card text-bg-dark">
+                                <img src="./imagens/manga 1.jpg" alt="">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">My hero Academia</h4>
+                                    <p class="card-text">Novos Capitulos</p>
+                                    <a href="#" class="btn btn-danger">Ir para página do mangá </a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- Fim do Primeiro Card manga -->
+
+                    <!-- Segundo Card manga -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/manga 2.jpg" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Boruto</h4>
+                                <p class="card-text">Novos Capitulos</p>
+                                <a href="#" class="btn btn-danger">Ir para página do mangá </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim do Segundo Card manga -->
+                
+
+                    <!-- Terceiro Card manga -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/manga 3.webp" alt="">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Berserker</h4>
+                                <p class="card-text">Novos Capitulos</p>
+                                <a href="#" class="btn btn-danger">Ir para página do mangá </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fim do Terceiro Card manga -->
+
+                </div>
+            </div>
+        </section>
+        <!-- Fim da seção de Mangás -->
+    </div>
+    <!-- fim das seções -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
